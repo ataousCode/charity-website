@@ -14,7 +14,16 @@ export default function FirstSection() {
             We help local nonprofits access the funding, tools, training, and
             support they need to become more.
           </p>
-          <button className="get-started-btn">Donate Now</button>
+          <br />
+          {/* <button className="get-started-btn">Donate Now</button> */}
+          <a
+            href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navbar__get-started"
+          >
+            Donate now
+          </a>
         </div>
 
         <div className="right-content">

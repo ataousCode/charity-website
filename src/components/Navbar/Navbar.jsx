@@ -39,7 +39,14 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__actions">
-        <button className="navbar__get-started">Donate</button>
+        <a
+          href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar__get-started"
+        >
+          Donate Now
+        </a>
         <button className="navbar__toggle" onClick={toggleMenu}>
           <span role="img" aria-label="Menu Icon">
             ☰

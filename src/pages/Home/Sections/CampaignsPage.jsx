@@ -93,7 +93,15 @@ export default function CampaignsPage() {
                   <img src={campaign.author.image} alt={campaign.author.name} />
                   <span>{campaign.author.name}</span>
                 </div>
-                <button className="donate-btn">Donate Now</button>
+                {/* <button className="donate-btn">Donate Now</button> */}
+                <a
+                  href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="navbar__get-started"
+                >
+                  Donate
+                </a>
               </div>
             </div>
           </div>

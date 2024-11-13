@@ -42,18 +42,21 @@
 }
 
 .navbar__get-started {
-  background-color: white;
-  color: #2575fc;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #043f1a; /* Button background color */
+  color: #ffffff; /* Text color */
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
   font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
 .navbar__get-started:hover {
-  background-color: #e1e1e1;
+  background-color: #155a9b;
 }
 
 .navbar__search,
