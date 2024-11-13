@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  width: 30px;
+  margin-right: 0.5rem;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar__menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__get-started {
+  background-color: white;
+  color: #2575fc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.navbar__get-started:hover {
+  background-color: #e1e1e1;
+}
+
+.navbar__search,
+.navbar__toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar__logo,
+  .navbar__get-started {
+    display: none; /* Hide logo and "Get started" button on mobile */
+  }
+
+  .navbar__menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    flex-direction: column;
+    background: #6a11cb;
+    width: 100%;
+    display: none;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .navbar__menu--open {
+    display: flex;
+  }
+
+  .navbar__search,
+  .navbar__toggle {
+    display: inline; /* Show search and toggle icons on mobile */
+  }
+
+  .navbar__menu a {
+    padding: 0.8rem 0;
+  }
+}
