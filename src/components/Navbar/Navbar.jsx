@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import LOGO from "../../Images/logo.jpg";
 import "./Navbar.css";
+import { LuGoal } from "react-icons/lu";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,8 +18,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__logo">
-        {/* <img src="/path-to-your-flutter-logo.png" alt="Flutter Logo" /> */}
-        <span>Flutter</span>
+        <img src={LOGO} alt="Flutter Logo" />
+        {/* <span>Flutter</span> */}
       </div>
 
       <div className={`navbar__menu ${menuOpen ? "navbar__menu--open" : ""}`}>

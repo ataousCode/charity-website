@@ -1,6 +1,6 @@
 import React from "react";
 import { FaWallet } from "react-icons/fa";
-import FIRST from "../../../Images/first.jpg";
+import FIRST from "../../../Images/chart.webp";
 import "./FirstSection.css";
 
 export default function FirstSection() {

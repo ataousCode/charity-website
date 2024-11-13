@@ -2,7 +2,9 @@ import React from "react";
 import Volunter from "../Home/Sections/Volunter";
 import { ArrowRight } from "lucide-react";
 import FIRST from "../../Images/first.jpg";
+import women from "../../Images/women.jpg";
 import "./Services.css";
+import FirstPage from "./FirstPage";
 
 export default function Services() {
   const brandingServices = [
@@ -23,6 +25,7 @@ export default function Services() {
 
   return (
     <>
+      <FirstPage />
       <div className="services">
         {/* Branding Section */}
         <section className="service-section">
@@ -39,7 +42,7 @@ export default function Services() {
 
           <div className="service-content">
             <div className="service-image-container">
-              <img src={FIRST} alt="Moscone Center" className="service-image" />
+              <img src={women} alt="Moscone Center" className="service-image" />
               {/* <div className="image-caption">Moscone Center</div> */}
             </div>
 
@@ -128,7 +131,6 @@ export default function Services() {
           </div>
         </section>
       </div>
-      <Volunter />
     </>
   );
 }

@@ -1,5 +1,7 @@
 import React from "react";
 import "./TestimonialPage.css";
+import MED1 from "../../../Images/med3.jpg";
+import MED2 from "../../../Images/test.jpg";
 import FIRST from "../../../Images/first.jpg";
 
 export default function TestimonialPage() {
@@ -8,7 +10,7 @@ export default function TestimonialPage() {
       name: "Donald Jackman",
       role: "",
       rating: 5,
-      image: FIRST,
+      image: MED1,
       text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
     },
     {
@@ -22,7 +24,7 @@ export default function TestimonialPage() {
       name: "James Washington",
       role: "",
       rating: 5,
-      image: FIRST,
+      image: MED2,
       text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
     },
   ];

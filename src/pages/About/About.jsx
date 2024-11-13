@@ -7,7 +7,7 @@ import FourthSection from "./Sections/FourthSection";
 import TestimonialPage from "../Home/Sections/TestimonialPage";
 import Event from "../Home/Sections/Event";
 import TeamMember from "../../components/Team/TeamMember";
-import FirstSection from "./Sections/FirstSection";
+import FirstSection from './Sections/FirstSection';
 
 function About() {
   return (

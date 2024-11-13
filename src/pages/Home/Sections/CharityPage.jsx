@@ -1,6 +1,7 @@
 import React from "react";
 import { Apple, Droplets, Pill, GraduationCap } from "lucide-react";
-import FIRST from "../../../Images/first.jpg";
+import FIRST from "../../../Images/medchar.webp";
+
 import "./CharityPage.css";
 
 export default function CharityPage() {
