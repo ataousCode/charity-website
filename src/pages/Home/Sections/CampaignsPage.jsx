@@ -53,8 +53,12 @@ export default function CampaignsPage() {
         <span className="subtitle">We Love To Help Poor</span>
         <h2>Our Featured Campaigns</h2>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form,
+          Organize a formal event, such as a gala dinner, where
+          attendees enjoy an elegant meal, entertainment, and a program that
+          highlights the charity’s impact. Benefit concerts are another engaging
+          option, featuring local musicians or speakers. These events can
+          include silent auctions, raffles, or a donation appeal to increase
+          contributions throughout the night.
         </p>
       </div>
 

@@ -40,8 +40,16 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__actions">
+        {/* <a
+          href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="navbar__get-started"
+        >
+          Donate Now
+        </a> */}
         <OpenWhatShapp
-          href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+          href="https://wa.me/+14847518401?text=Hello,%20I'm%20interested%20in%20getting%20started!"
           text="Donate Now"
         />
         <button className="navbar__toggle" onClick={toggleMenu}>

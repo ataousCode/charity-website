@@ -11,21 +11,21 @@ export default function Event() {
       image: FIRST,
       title: "Help The Poor From Your Soul",
       description:
-        "There are many variations of passages of Lorem Ipsum available.",
+        "A classic bake sale or themed food festival is a family-friendly event that brings people together over delicious treats.",
     },
     {
       date: "24 Jan, 2024",
       image: EVENT1,
       title: "Help Children Raise Out Of Proverty.",
       description:
-        "There are many variations of passages of Lorem Ipsum available.",
+        "Encourage community members to donate baked goods or dishes, and set up stalls for attendees to purchase them",
     },
     {
       date: "27 Oct, 2024",
       image: EVENT2,
       title: "Provideing Education Is The Valuable Gift",
       description:
-        "There are many variations of passages of Lorem Ipsum available.",
+        "For a food festival, offer a variety of cuisines or food trucks, with proceeds going toward the charity",
     },
   ];
 
@@ -36,8 +36,8 @@ export default function Event() {
           <span className="subtitle">Events</span>
           <h2>Fundraising Events</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form,
+            It’s an excellent way to bring in funds while connecting with the
+            local community.
           </p>
         </div>
 

@@ -11,21 +11,21 @@ export default function TestimonialPage() {
       role: "",
       rating: 5,
       image: MED1,
-      text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+      text: "Supporting this charity has been one of the most rewarding experiences of my life. Knowing that my contributions help provide food, education, and hope to those in need fills me with gratitude. I trust their dedication and transparency and am proud to be part of this community of kindness.",
     },
     {
       name: "Richard Nelson",
       role: "",
       rating: 4,
       image: FIRST,
-      text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+      text: "I was initially looking for ways to make a real difference in people's lives, and I found it here. This charity’s impact on local families and communities is nothing short of inspiring. Their projects are thoughtfully designed to create lasting change, and I am grateful to support their work.",
     },
     {
       name: "James Washington",
       role: "",
       rating: 5,
       image: MED2,
-      text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+      text: "This charity helped my family through a tough time, providing not only essentials but also encouragement and kindness. The staff and volunteers treated us with respect and made us feel valued. I am forever thankful for the hope they gave us, and I now volunteer myself to give back.",
     },
   ];
 

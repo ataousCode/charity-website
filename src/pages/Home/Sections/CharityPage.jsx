@@ -60,10 +60,13 @@ export default function CharityPage() {
           <span className="about-label">About Us</span>
           <h2>We Can Save More Lives With Your Helping Hand.</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+            A classic bake sale or themed food festival is a family-friendly
+            event that brings people together over delicious treats. Encourage
+            community members to donate baked goods or dishes, and set up stalls
+            for attendees to purchase them. For a food festival, offer a variety
+            of cuisines or food trucks, with proceeds going toward the charity.
+            It’s an excellent way to bring in funds while connecting with the
+            local community.
           </p>
           <ul className="feature-list">
             {[

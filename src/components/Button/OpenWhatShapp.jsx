@@ -7,7 +7,7 @@ function OpenWhatShapp({ text, href, onClick }) {
       href={href}
       rel="noopener noreferrer"
       target="_blank"
-      className="custom-button"
+      className="navbar__get-started"
       onClick={onClick}
     >
       {text}
