@@ -8,8 +8,8 @@ const ThirdSection = () => {
         <div className="contact-third-upper-container">
           <h2>Have Any Questions?</h2>
           <h4>
-            It is a long established fact that a reader will be distracted
-            content of a page when looking.
+            We’re here to help make a difference together! Whether you have
+            questions about our projects get int touch with us
           </h4>
         </div>
         <div className="contact-third-lower-container">

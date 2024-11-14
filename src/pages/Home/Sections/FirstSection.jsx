@@ -2,6 +2,7 @@ import React from "react";
 import { FaWallet } from "react-icons/fa";
 import FIRST from "../../../Images/chart.webp";
 import "./FirstSection.css";
+import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 
 export default function FirstSection() {
   return (
@@ -16,14 +17,18 @@ export default function FirstSection() {
           </p>
           <br />
           {/* <button className="get-started-btn">Donate Now</button> */}
-          <a
+          {/* <a
             href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
             target="_blank"
             rel="noopener noreferrer"
             className="navbar__get-started"
           >
             Donate now
-          </a>
+          </a> */}
+          <OpenWhatShapp
+            href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+            text="Donate Now"
+          />
         </div>
 
         <div className="right-content">

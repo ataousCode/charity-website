@@ -1,6 +1,7 @@
 import React from "react";
 import volunteerPicture from "../../../Images/volunteer.png";
 import "./Volunter.css";
+import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 
 function Volunter() {
   return (
@@ -12,14 +13,11 @@ function Volunter() {
           </div>
           <div className="seventh-second-item">
             {/* <button>Become A Volunteer</button> */}
-            <a
-              href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="navbar__get-started"
-            >
-              Become A Volunteer
-            </a>
+
+            <OpenWhatShapp
+              href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+              text="Become A Volunteer"
+            />
           </div>
         </div>
         <div className="seventh-third-item">

@@ -5,6 +5,7 @@ import MED1 from "../../../Images/med1.jpg";
 import auth from "../../../Images/img1.jpg";
 
 import "./CampaignsPage.css";
+import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 
 export default function CampaignsPage() {
   const campaigns = [
@@ -94,14 +95,10 @@ export default function CampaignsPage() {
                   <span>{campaign.author.name}</span>
                 </div>
                 {/* <button className="donate-btn">Donate Now</button> */}
-                <a
-                  href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="navbar__get-started"
-                >
-                  Donate
-                </a>
+                <OpenWhatShapp
+                  href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+                  text="Donate Now"
+                />
               </div>
             </div>
           </div>

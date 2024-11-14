@@ -3,6 +3,7 @@ import { Apple, Droplets, Pill, GraduationCap } from "lucide-react";
 import FIRST from "../../../Images/medchar.webp";
 
 import "./CharityPage.css";
+import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 
 export default function CharityPage() {
   return (
@@ -73,7 +74,11 @@ export default function CharityPage() {
               <li key={index}>{item}</li>
             ))}
           </ul>
-          <button className="more-about-btn">More About</button>
+          {/* <button className="more-about-btn">More About</button> */}
+          <OpenWhatShapp
+            href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+            text="More About"
+          />
         </div>
       </section>
     </main>

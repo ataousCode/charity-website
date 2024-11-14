@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import LOGO from "../../Images/logo.jpg";
 import "./Navbar.css";
 import { LuGoal } from "react-icons/lu";
+import OpenWhatShapp from "../Button/OpenWhatShapp";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -39,14 +40,10 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__actions">
-        <a
-          href="https://wa.me/+8615072486774?text=Hello,%20I'm%20interested%20in%20getting%20started!"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="navbar__get-started"
-        >
-          Donate Now
-        </a>
+        <OpenWhatShapp
+          href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
+          text="Donate Now"
+        />
         <button className="navbar__toggle" onClick={toggleMenu}>
           <span role="img" aria-label="Menu Icon">
             ☰

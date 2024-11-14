@@ -5,6 +5,8 @@ import IMG2 from "../../Images/img2.jpg";
 import IMG3 from "../../Images/img3.jpg";
 import IMG4 from "../../Images/img4.jpg";
 import IMG5 from "../../Images/img5.jpg";
+import MO from '../../Images/mo.jpg';
+import MO1 from '../../Images/mo1.jpg';
 import "./TeamMember.css";
 
 export default function TeamMember() {
