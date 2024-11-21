@@ -1,5 +1,5 @@
 import React from "react";
-import { Apple, Droplets, Pill, GraduationCap } from "lucide-react";
+import { Apple, Droplets, Pill, GraduationCap, Link } from "lucide-react";
 import FIRST from "../../../Images/medchar.webp";
 
 import "./CharityPage.css";
@@ -78,10 +78,13 @@ export default function CharityPage() {
             ))}
           </ul>
           {/* <button className="more-about-btn">More About</button> */}
-          <OpenWhatShapp
+          {/* <OpenWhatShapp
             href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
             text="More About"
-          />
+          /> */}
+          <button className="more-about-btn">
+          <a href="/about">About us</a>
+          </button>
         </div>
       </section>
     </main>

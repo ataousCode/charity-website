@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
             <div className="contact-item">
               <FaEnvelope />
-              <span>raising@gmail.com</span>
+              <span>raisinglazarusnonprofit@gmail.com</span>
             </div>
             <div className="contact-item">
               <FaMapMarkerAlt />
@@ -98,7 +98,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© atalibdev All Rights Reserved</p>
+        <p>© Raising Lazarus All Rights Reserved</p>
         <div className="footer-bottom-links">
           <a href="#">Trams & Condition</a>
           <a href="#">Privacy Policy</a>

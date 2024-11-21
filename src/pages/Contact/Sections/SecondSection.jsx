@@ -22,7 +22,7 @@ function SecondSection() {
               <MdEmail />
             </div>
             <h3>Email Us</h3>
-            <h4>raising@gmail.com</h4>
+            <h4>raisinglazarusnonprofit@gmail.com</h4>
           </div>
 
           <div className="call-div">
