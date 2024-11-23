@@ -14,7 +14,7 @@ export default function TestimonialPage() {
       text: "Supporting this charity has been one of the most rewarding experiences of my life. Knowing that my contributions help provide food, education, and hope to those in need fills me with gratitude. I trust their dedication and transparency and am proud to be part of this community of kindness.",
     },
     {
-      name: "Richard Nelson",
+      name: "Jonnett Robert",
       role: "",
       rating: 4,
       image: FIRST,
@@ -33,7 +33,7 @@ export default function TestimonialPage() {
     <div className="testimonials">
       <div className="testimonials-header">
         <h2>
-          Customer <span>Testimonials</span>
+          Contributors <span>Testimonials</span>
         </h2>
         <h2>
           <span>Real Stories from Those Who Found Home with Us</span>

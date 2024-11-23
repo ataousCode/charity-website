@@ -1,4 +1,4 @@
-.custom-button {
+.navbar__get-started {
   display: inline-block;
   padding: 10px 20px;
   background-color: #e57373;
@@ -12,6 +12,6 @@
   cursor: pointer;
 }
 
-.custom-button:hover {
+.navbar__get-started:hover {
   background-color: #155a9b;
 }

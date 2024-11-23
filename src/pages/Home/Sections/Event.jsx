@@ -1,7 +1,7 @@
 import React from "react";
 import FIRST from "../../../Images/med.jpg";
 import EVENT1 from "../../../Images/med1.jpg";
-import EVENT2 from "../../../Images/med2.jpg";
+import EVENT2 from "../../../Images/women.jpg";
 import "./Event.css";
 
 export default function Event() {
@@ -9,23 +9,23 @@ export default function Event() {
     {
       date: "25 Nov, 2023",
       image: FIRST,
-      title: "Help The Poor From Your Soul",
+      title: "Awareness & Community Engagement",
       description:
-        "A classic bake sale or themed food festival is a family-friendly event that brings people together over delicious treats.",
+        "To raise awareness about the challenges women and girls face in accessing safe transportation, fostering community engagement, and promoting societal change towards a more equitable and mobile world.",
     },
     {
       date: "24 Jan, 2024",
       image: EVENT1,
-      title: "Help Children Raise Out Of Proverty.",
+      title: "Support Services",
       description:
-        "Encourage community members to donate baked goods or dishes, and set up stalls for attendees to purchase them",
+        "To provide holistic support, including health care, counseling, shelter, and transportation solutions, ensuring that women and girls in crisis receive the care and mobility they need",
     },
     {
       date: "27 Oct, 2024",
       image: EVENT2,
-      title: "Provideing Education Is The Valuable Gift",
+      title: "Advocacy",
       description:
-        "For a food festival, offer a variety of cuisines or food trucks, with proceeds going toward the charity",
+        "To advocate for the rights of women and girls, challenging systemic inequalities and promoting gender equality, with a focus on improving transportation access and safety",
     },
   ];
 

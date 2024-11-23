@@ -9,7 +9,7 @@ function FirstPage() {
           <h2>Our Vision</h2>
           <p>
             {" "}
-            <a href="#">Home</a>/Vision
+            <a href="/">Home</a>/Vision
           </p>
         </div>
       </div>

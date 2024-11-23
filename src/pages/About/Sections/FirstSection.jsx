@@ -9,7 +9,7 @@ function FirstSection() {
           <h2> About Us </h2>
           <p>
             {" "}
-            <a href="#">Home</a>/About
+            <a href="/">Home</a>/About
           </p>
         </div>
       </div>

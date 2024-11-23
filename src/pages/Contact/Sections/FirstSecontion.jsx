@@ -9,7 +9,7 @@ function FirstSecontion() {
           <h2>Contact Us</h2>
           <p>
             {" "}
-            <a href="#">Home</a>/Contact
+            <a href="/">Home</a>/Contact
           </p>
         </div>
       </div>

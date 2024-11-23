@@ -1,19 +1,20 @@
 import React from "react";
 
 import "./About.css";
+import FirstSection from './Sections/FirstSection'
 import ThirdSection from "./Sections/ThirdSection";
 import CharityPage from "../Home/Sections/CharityPage";
 import FourthSection from "./Sections/FourthSection";
-import TestimonialPage from "../Home/Sections/TestimonialPage";
 import Event from "../Home/Sections/Event";
 import TeamMember from "../../components/Team/TeamMember";
-import FirstSection from './Sections/FirstSection';
+import SectionFive from "./Sections/SectionFive";
 
 function About() {
   return (
     <div className="about-container">
       <FirstSection />
-      <ThirdSection />
+      {/* <ThirdSection /> */}
+      <SectionFive />
       <TeamMember />
       <CharityPage />
       <Event />

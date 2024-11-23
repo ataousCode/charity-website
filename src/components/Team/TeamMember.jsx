@@ -1,12 +1,13 @@
 import React from "react";
 import FIRST from "../../Images/first.jpg";
-import IMG1 from "../../Images/img1.jpg";
+import IMG1 from "../../Images/team2.jpg";
 import IMG2 from "../../Images/img2.jpg";
 import IMG3 from "../../Images/img3.jpg";
 import IMG4 from "../../Images/img4.jpg";
 import IMG5 from "../../Images/img5.jpg";
 import MO from "../../Images/mo.jpg";
 import MO1 from "../../Images/mo1.jpg";
+import MO2 from "../../Images/team1.jpg";
 import "./TeamMember.css";
 
 export default function TeamMember() {
@@ -33,12 +34,12 @@ export default function TeamMember() {
       image: IMG5,
     },
     {
-      name: "Amos M . Karter",
+      name: "Daniel Torla",
       role: "Volunteer",
       image: IMG3,
     },
     {
-      name: "Daniel Torla",
+      name: "Amos M . Karter",
       role: "Member of the team",
       image: MO,
     },
@@ -46,6 +47,11 @@ export default function TeamMember() {
       name: "Abraham Prosper Yamulah",
       role: "Member of the team",
       image: MO1,
+    },
+    {
+      name: "Kebbeh Tokpa",
+      role: "Member of the team",
+      image: MO2,
     },
   ];
 
@@ -56,7 +62,7 @@ export default function TeamMember() {
           <span className="subtitle">Expert Team</span>
           <h2>Meet Our Volunteer Team</h2>
           <p>
-            Our success at Prudent Plus is a result of the dedication and
+            Our success at Raising Lazarus is a result of the dedication and
             expeertise of our highly skilled team. We believe in the power of
             collaboration, and pur team comprises individuals with diverse
             backgrounds and talents, united by a shared commitment to excellence
