@@ -12,7 +12,8 @@ export default function CampaignsPage() {
     {
       category: "Education",
       image: Education,
-      title: "Help To Build a Secure Life Of a Poor Children.",
+      title:
+        "To equip women and girls with the education and skills they need to lead independent and fulfilled lives, including training on safe and effective use of transportation tools.",
       progress: 65,
       goal: 3000.0,
       raised: 2000.0,
@@ -22,9 +23,10 @@ export default function CampaignsPage() {
       },
     },
     {
-      category: "Food",
+      category: "Agriculture",
       image: FIRST,
-      title: "Ensure Clean Water To The Kids.",
+      title:
+        "To empower women and young girls by providing access to agricultural education, resources and opportunities. Foster resilience, promote gender equality",
       progress: 75,
       goal: 3000.0,
       raised: 2000.0,
@@ -34,9 +36,10 @@ export default function CampaignsPage() {
       },
     },
     {
-      category: "Medicine",
+      category: "Transportation",
       image: MED1,
-      title: "Your Help Can Save A Human Life From Death.",
+      title:
+        "To empower women and girls by providing access to affordable and sustainable transportation options, such as bikes, auto rickshaws and scooters",
       progress: 85,
       goal: 3000.0,
       raised: 2000.0,
@@ -53,12 +56,12 @@ export default function CampaignsPage() {
         <span className="subtitle">We Love To Help Poor</span>
         <h2>Our Featured Campaigns</h2>
         <p>
-          Organize a formal event, such as a gala dinner, where
-          attendees enjoy an elegant meal, entertainment, and a program that
-          highlights the charity’s impact. Benefit concerts are another engaging
-          option, featuring local musicians or speakers. These events can
-          include silent auctions, raffles, or a donation appeal to increase
-          contributions throughout the night.
+          Organize a formal event, such as a gala dinner, where attendees enjoy
+          an elegant meal, entertainment, and a program that highlights the
+          charity’s impact. Benefit concerts are another engaging option,
+          featuring local musicians or speakers. These events can include silent
+          auctions, raffles, or a donation appeal to increase contributions
+          throughout the night.
         </p>
       </div>
 
