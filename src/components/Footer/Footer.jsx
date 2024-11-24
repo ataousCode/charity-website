@@ -50,7 +50,7 @@ export default function Footer() {
           <div className="contact-info">
             <div className="contact-item">
               <FaPhone />
-              <span>+1 (484) 751-8401</span>
+              <span>07727584237 / 0886399378</span>
             </div>
             <div className="contact-item">
               <FaEnvelope />

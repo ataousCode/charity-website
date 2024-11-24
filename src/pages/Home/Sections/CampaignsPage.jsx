@@ -18,7 +18,7 @@ export default function CampaignsPage() {
       goal: 3000.0,
       raised: 2000.0,
       author: {
-        name: "Micheal G. Siaway",
+        name: "Michael G. Siaway",
         image: auth,
       },
     },
@@ -31,7 +31,7 @@ export default function CampaignsPage() {
       goal: 3000.0,
       raised: 2000.0,
       author: {
-        name: "Micheal G. Siaway",
+        name: "Michael G. Siaway",
         image: auth,
       },
     },
@@ -44,7 +44,7 @@ export default function CampaignsPage() {
       goal: 3000.0,
       raised: 2000.0,
       author: {
-        name: "Micheal G. Siaway",
+        name: "Michael G. Siaway",
         image: auth,
       },
     },

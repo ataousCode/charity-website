@@ -1,10 +1,11 @@
 import React from "react";
-import Volunter from "../Home/Sections/Volunter";
 import { ArrowRight } from "lucide-react";
 import FIRST from "../../Images/first.jpg";
 import women from "../../Images/women.jpg";
+import FEE1 from "../../Images/fee1.jpg";
 import "./Services.css";
 import FirstPage from "./FirstPage";
+import Statement from "./Statement";
 
 export default function Services() {
   const brandingServices = [
@@ -58,11 +59,6 @@ export default function Services() {
                 girls to actively engage in and benefit from agricultural
                 activities,
               </p>
-              {/* <p>
-                Promote and encourage safe and inclusive transportation system,
-                addressing hurdles that hinder women and girls mobility and
-                access to educational, economic and social opportunities.
-              </p> */}
               <br />
               <ul className="service-list">
                 {brandingServices.map((service, index) => (
@@ -88,25 +84,12 @@ export default function Services() {
                 To create sustainable and inclusive agricultural sector where
                 women and girls play a central role, envision a future where
                 women and girls have equal access to resources.
-                {/* , knowledge and
-                opportunities in agricultural leading improved livelihoods,
-                increased food security and enhance economic independence for
-                women and girls in rural comminuties. */}
               </p>
               <h3>Computer Literacy</h3>
               <p>
                 To build a digital inclusive world or comminuties where women
                 and girls are proficient in technology.
-                {/* To bridge the gap in the
-                tech sector by providing women and girls with skills and
-                confidence needed to thrive in the digital era, unlocking
-                opportunities for education, empowerment and entrepreneurship. */}
               </p>
-              {/* <p>
-                Who uses your site and what motivates them? How do you help them
-                get what they want from your site while also achieving your
-                goals?
-              </p> */}
               <br />
               <ul className="service-list">
                 {uxServices.map((service, index) => (
@@ -124,12 +107,10 @@ export default function Services() {
                 alt="Alameda County Community Food Bank"
                 className="service-image"
               />
-              {/* <div className="image-caption">
-                Alameda County Community Food Bank (ACCFB)
-              </div> */}
             </div>
           </div>
         </section>
+        <Statement />
       </div>
     </>
   );
