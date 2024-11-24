@@ -1,7 +1,7 @@
 import React from "react";
-import FIRST from "../../../Images/med4.jpg";
-import Education from "../../../Images/med2.jpg";
-import MED1 from "../../../Images/med1.jpg";
+import FIRST from "../../../Images/t3.jpg";
+import Education from "../../../Images/t2.jpg";
+import MED1 from "../../../Images/t4.jpg";
 import auth from "../../../Images/img1.jpg";
 
 import "./CampaignsPage.css";

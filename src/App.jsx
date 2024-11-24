@@ -9,7 +9,6 @@ import Navigation from './components/Navigation/Navigation'
 function App() {
   return (
     <Router>
-      {/* <Navbar /> */}
       <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />

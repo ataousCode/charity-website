@@ -1,6 +1,6 @@
 import React from "react";
 import { FaWallet } from "react-icons/fa";
-import FIRST from "../../../Images/chart.webp";
+import FIRST from "../../../Images/t1.jpg";
 import "./FirstSection.css";
 import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 

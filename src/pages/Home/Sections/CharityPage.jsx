@@ -1,6 +1,6 @@
 import React from "react";
 import { Apple, Droplets, GraduationCap } from "lucide-react";
-import FIRST from "../../../Images/medchar.webp";
+import FIRST from "../../../Images/t2.jpg";
 
 import "./CharityPage.css";
 
@@ -52,19 +52,15 @@ export default function CharityPage() {
           <span className="about-label">About Us</span>
           <h2>We Can Save More Lives With Your Helping Hand.</h2>
           <p>
-            A classic bake sale or themed food festival is a family-friendly
-            event that brings people together over delicious treats. Encourage
-            community members to donate baked goods or dishes, and set up stalls
-            for attendees to purchase them. For a food festival, offer a variety
-            of cuisines or food trucks, with proceeds going toward the charity.
-            It’s an excellent way to bring in funds while connecting with the
-            local community.
+            We empower women and young girls live above all obstacles in the
+            communities they live
           </p>
           <ul className="feature-list">
             {[
-              "The standard chunk of Lorem Ipsum used since.",
-              "Randomised words which don't look even slightly believable.",
-              "Making this the first true generator on the Internet.",
+              "Education/vocational school",
+              "Agriculture",
+              "Transportation",
+              "Feeding and providing healthy environment",
             ].map((item, index) => (
               <li key={index}>{item}</li>
             ))}

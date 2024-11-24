@@ -13,7 +13,7 @@ import "./TeamMember.css";
 export default function TeamMember() {
   const teamMembers = [
     {
-      name: "Micheal G, Siaway",
+      name: "Michael G, Siaway",
       role: "Founder and Executive Director, USA",
       image: IMG1,
     },
