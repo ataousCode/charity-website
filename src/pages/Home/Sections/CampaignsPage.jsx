@@ -50,7 +50,7 @@ export default function CampaignsPage() {
       },
     },
     {
-      category: "FEEDING PROGRAM",
+      category: "FEEDING",
       image: FEE,
       title:
         "Mission statement: Empowering communities by providing nutritious meals to combat hunger, nurture health, and inspire hope for a brighter future.",
