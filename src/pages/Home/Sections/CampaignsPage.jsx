@@ -2,10 +2,11 @@ import React from "react";
 import FIRST from "../../../Images/t3.jpg";
 import Education from "../../../Images/t2.jpg";
 import MED1 from "../../../Images/t4.jpg";
+import FEE from "../../../Images/fee1.jpg";
 import auth from "../../../Images/img1.jpg";
+import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 
 import "./CampaignsPage.css";
-import OpenWhatShapp from "../../../components/Button/OpenWhatShapp";
 
 export default function CampaignsPage() {
   const campaigns = [
@@ -48,12 +49,25 @@ export default function CampaignsPage() {
         image: auth,
       },
     },
+    {
+      category: "FEEDING PROGRAM",
+      image: FEE,
+      title:
+        "Mission statement: Empowering communities by providing nutritious meals to combat hunger, nurture health, and inspire hope for a brighter future.",
+      progress: 85,
+      goal: 3000.0,
+      raised: 2000.0,
+      author: {
+        name: "Michael G. Siaway",
+        image: auth,
+      },
+    },
   ];
 
   return (
     <div className="campaigns">
       <div className="campaigns-header">
-        <span className="subtitle">We Love To Help Poor</span>
+        <span className="subtitle">We Love To Help Poor Children</span>
         <h2>Our Featured Campaigns</h2>
         <p>
           Organize a formal event, such as a gala dinner, where attendees enjoy
@@ -104,7 +118,7 @@ export default function CampaignsPage() {
                 {/* <button className="donate-btn">Donate Now</button> */}
                 <OpenWhatShapp
                   href="https://wa.me/1234567890?text=Hello,%20I'm%20interested%20in%20getting%20started!"
-                  text="Donate Now"
+                  text="Donate"
                 />
               </div>
             </div>

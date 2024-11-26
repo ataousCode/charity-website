@@ -1,36 +1,12 @@
 import React from "react";
 import { Apple, Droplets, GraduationCap } from "lucide-react";
-import FIRST from "../../../Images/t2.jpg";
+import FIRST from "../../../Images/ee.jpg";
 
 import "./CharityPage.css";
 
 export default function CharityPage() {
   return (
     <main className="container">
-      {/* Services Section
-      <section className="services-grid">
-        <div className="service-card bg-mint">
-          <div className="icon-wrapper">
-            <Apple className="icon" />
-          </div>
-          <h3>Transportation</h3>
-        </div>
-
-        <div className="service-card bg-peach">
-          <div className="icon-wrapper">
-            <Droplets className="icon" />
-          </div>
-          <h3>Agriculture</h3>
-        </div>
-
-        <div className="service-card bg-lemon">
-          <div className="icon-wrapper">
-            <GraduationCap className="icon" />
-          </div>
-          <h3>Education</h3>
-        </div>
-      </section> */}
-
       {/* About Section */}
       <section className="about-section">
         <div className="image-container">

@@ -13,7 +13,8 @@ import "./TeamMember.css";
 export default function TeamMember() {
   const teamMembers = [
     {
-      name: "Michael G, Siaway",
+      name: "Michael G. Siaway",
+      phone: "+1 (484) 751-8401",
       role: "Founder and Executive Director, USA",
       image: IMG1,
     },
@@ -44,7 +45,7 @@ export default function TeamMember() {
       image: MO,
     },
     {
-      name: "Abraham Prosper Yamulah",
+      name: "Abraham Y. Siaway",
       role: "Member of the team",
       image: MO1,
     },
@@ -79,6 +80,7 @@ export default function TeamMember() {
               <div className="member-info">
                 <h3>{member.name}</h3>
                 <span className="member-role">{member.role}</span>
+                <h4>{member.phone}</h4>
               </div>
             </div>
           ))}

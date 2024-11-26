@@ -30,7 +30,7 @@
 
 .campaigns-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
@@ -39,6 +39,8 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .campaign-image {
@@ -65,13 +67,17 @@
 
 .campaign-content {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .campaign-content h3 {
   color: #1e1b4b;
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.4;
+  min-height: 4.8em; /* Approximately 3 lines of text */
 }
 
 .progress-container {
@@ -121,7 +127,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: auto;
   padding-top: 1.5rem;
   border-top: 1px solid #eee;
 }
@@ -153,6 +159,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .donate-btn:hover {
@@ -160,7 +167,19 @@
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .campaigns-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .campaigns-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
   .campaigns {
     padding: 2rem 1rem;
   }

@@ -110,7 +110,7 @@ export default function Services() {
             </div>
           </div>
         </section>
-        <Statement />
+        {/* <Statement /> */}
       </div>
     </>
   );
