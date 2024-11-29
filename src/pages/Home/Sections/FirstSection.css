@@ -134,6 +134,8 @@ p {
   object-fit: cover;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media (max-width: 1024px) {
   h1 {
     font-size: 3rem;

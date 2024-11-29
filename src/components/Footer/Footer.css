@@ -178,6 +178,8 @@
   color: white;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media (max-width: 1024px) {
   .footer-content {
     grid-template-columns: repeat(2, 1fr);

@@ -117,6 +117,8 @@
   color: white;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media (max-width: 768px) {
   .burger-menu {
     display: flex;

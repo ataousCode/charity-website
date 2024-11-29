@@ -70,6 +70,8 @@
   background-color: #d54e33;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media (min-width: 640px) {
   .title {
     font-size: 3rem;

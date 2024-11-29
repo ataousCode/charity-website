@@ -3,7 +3,6 @@ import {
   FaArrowRight,
   FaGraduationCap,
   FaRegSquare,
-  FaCube,
 } from "react-icons/fa";
 import "./SectionFive.css";
 
@@ -66,26 +65,6 @@ export default function SectionFive() {
           </div>
           <FaRegSquare className="card-icon" />
         </div>
-        {/* <div className="atalib-card tracks">
-          <div className="card-content">
-            <div className="card-header">
-              <span>Tracks</span>
-              <FaArrowRight className="arrow-icon" />
-            </div>
-            <h3>Personalized Learning Tracks</h3>
-          </div>
-          <FaCube className="card-icon" />
-        </div>
-        <div className="atalib-card tracks">
-          <div className="card-content">
-            <div className="card-header">
-              <span>Tracks</span>
-              <FaArrowRight className="arrow-icon" />
-            </div>
-            <h3>Personalized Learning Tracks</h3>
-          </div>
-          <FaCube className="card-icon" />
-        </div> */}
       </div>
     </div>
   );

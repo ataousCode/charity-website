@@ -2,10 +2,8 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import FIRST from "../../Images/first.jpg";
 import women from "../../Images/women.jpg";
-import FEE1 from "../../Images/fee1.jpg";
 import "./Services.css";
 import FirstPage from "./FirstPage";
-import Statement from "./Statement";
 
 export default function Services() {
   const brandingServices = [

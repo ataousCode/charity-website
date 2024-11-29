@@ -1,6 +1,7 @@
 .about-first-section {
   grid-row: 1/1;
 }
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
 @media screen and (min-device-width: 1440px) {
   .first-section-container {
     background: url("../../Images/vision.jpg") no-repeat top/cover;

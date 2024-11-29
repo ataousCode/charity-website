@@ -92,6 +92,7 @@
   line-height: 1.6;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
 @media (max-width: 1024px) {
   .events-grid {
     grid-template-columns: repeat(2, 1fr);

@@ -2,7 +2,6 @@ import React from "react";
 
 import "./About.css";
 import FirstSection from './Sections/FirstSection'
-import ThirdSection from "./Sections/ThirdSection";
 import CharityPage from "../Home/Sections/CharityPage";
 import FourthSection from "./Sections/FourthSection";
 import Event from "../Home/Sections/Event";

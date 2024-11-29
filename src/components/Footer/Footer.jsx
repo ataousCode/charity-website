@@ -1,9 +1,7 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
-  FaPaperPlane,
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
@@ -32,9 +30,6 @@ export default function Footer() {
             >
               <FaFacebookF />
             </a>
-            {/* <a href="#" aria-label="Twitter">
-              <FaTwitter />
-            </a> */}
             <a
               href="https://www.instagram.com/raisinglazarusnonprofit/profilecard/?igsh=MTJlaTd0N202ajFs"
               target="_blank"

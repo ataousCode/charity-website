@@ -67,6 +67,8 @@
   line-height: 1.6;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media (max-width: 768px) {
   .testimonials {
     padding: 2rem 1rem;

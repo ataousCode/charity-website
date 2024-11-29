@@ -4,11 +4,13 @@ import ContactPage from "./pages/Contact/ContactPage";
 import About from "./pages/About/About";
 import ServicesPage from "./pages/Services/Services";
 import Footer from "./components/Footer/Footer";
-import Navigation from './components/Navigation/Navigation'
+import Navigation from "./components/Navigation/Navigation";
 
 function App() {
   return (
     <Router>
+      {/* Everything Is Return In Components */}
+      {/* if u wanna update anything look at the componets */}
       <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />

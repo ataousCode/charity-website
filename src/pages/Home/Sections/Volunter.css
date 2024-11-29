@@ -2,6 +2,7 @@
   grid-row-start: 7;
   grid-row-end: 7;
 }
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
 @media screen and (min-device-width: 1440px) {
   .seventh-container {
     background-image: url("../../../Images/shape.png"),

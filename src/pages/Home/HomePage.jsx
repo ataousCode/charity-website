@@ -28,7 +28,6 @@ export default function HomePage() {
       <TeamMember />
       <Event />
       <Volunter />
-      
     </div>
   );
 }

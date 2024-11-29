@@ -91,6 +91,8 @@
   font-size: 1rem;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media (max-width: 1024px) {
   .service-title {
     font-size: 3rem;

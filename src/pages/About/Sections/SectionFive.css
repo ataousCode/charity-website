@@ -111,6 +111,8 @@
     color: #6c63ff;
     opacity: 1;
   }
+
+  /* Responsive styles started from here for mobile and tablet @atalibdev.com */
   
   @media (max-width: 768px) {
     .atalib-grid {

@@ -126,7 +126,8 @@ h2 {
 .more-about-btn:hover {
   background-color: #6bb5a7;
 }
-/* Responsive styles */
+
+/* Responsive styles started from here for mobile and tablet @talibdev.com */
 @media (min-width: 768px) {
   .services-grid {
     grid-template-columns: repeat(1, 1fr);

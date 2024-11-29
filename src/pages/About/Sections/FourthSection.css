@@ -2,6 +2,9 @@
   grid-row: 5/5;
   margin-bottom: 70px;
 }
+
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 @media screen and (min-device-width: 1440px) {
   .about-fifth-container {
     background-image: url("../../../Images/shape.png"),

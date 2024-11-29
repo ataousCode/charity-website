@@ -84,6 +84,8 @@
   margin: 0;
 }
 
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
+
 /* Tablet Responsive */
 @media (max-width: 1024px) {
   .image-grid {

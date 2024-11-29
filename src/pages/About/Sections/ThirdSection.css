@@ -1,6 +1,7 @@
 .about-third-section {
   grid-row: 3/3;
 }
+/* Responsive styles started from here for mobile and tablet @atalibdev.com */
 @media screen and (min-device-width: 1440px) {
   .icon-about-div {
     display: grid;
