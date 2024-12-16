@@ -20,7 +20,7 @@ export default function Footer() {
             <span className="logo-text">Raising Lazarus</span>
           </div>
           <p className="footer-description">
-            We Chenge The World With Humanity
+            Let us change the world with humanity.
           </p>
           <div className="social-links">
             <a

@@ -1,13 +1,13 @@
 import React from "react";
 import "./TestimonialPage.css";
-import MED1 from "../../../Images/med3.jpg";
-import MED2 from "../../../Images/test.jpg";
+import MED1 from "../../../Images/moussa.jpg";
+import MED2 from "../../../Images/man.jpg";
 import FIRST from "../../../Images/first.jpg";
 
 export default function TestimonialPage() {
   const testimonials = [
     {
-      name: "Donald Jackman",
+      name: "Malick Dash",
       role: "",
       rating: 5,
       image: MED1,
@@ -21,7 +21,7 @@ export default function TestimonialPage() {
       text: "I was initially looking for ways to make a real difference in people's lives, and I found it here. This charity’s impact on local families and communities is nothing short of inspiring. Their projects are thoughtfully designed to create lasting change, and I am grateful to support their work.",
     },
     {
-      name: "James Washington",
+      name: "Moussa Traore",
       role: "",
       rating: 5,
       image: MED2,
