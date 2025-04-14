@@ -8,6 +8,7 @@ import IMG5 from "../../Images/img5.jpg";
 import MO from "../../Images/mo.jpg";
 import MO1 from "../../Images/mo1.jpg";
 import MO2 from "../../Images/team1.jpg";
+import MO3 from "../../Images/sajdeen.jpg";
 import "./TeamMember.css";
 
 export default function TeamMember() {
@@ -54,6 +55,11 @@ export default function TeamMember() {
       role: "Member of the team",
       image: MO2,
     },
+    {
+    name: "Mr. Sanjeeban Missal",
+    role: "Program Director/ Manager, Kolkata, West Bengal, India",
+    image: MO3,
+    }
   ];
 
   return (
