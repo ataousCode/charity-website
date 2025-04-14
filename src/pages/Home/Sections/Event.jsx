@@ -2,6 +2,7 @@ import React from "react";
 import FIRST from "../../../Images/med.jpg";
 import EVENT1 from "../../../Images/med1.jpg";
 import EVENT2 from "../../../Images/women.jpg";
+import EVENT3 from "../../../Images/women_3.jpg";
 import "./Event.css";
 
 export default function Event() {
@@ -15,10 +16,10 @@ export default function Event() {
     },
     {
       date: "24 Jan, 2024",
-      image: EVENT1,
+      image: EVENT3,
       title: "Support Services",
       description:
-        "To provide holistic support, including health care, counseling, shelter, and transportation solutions, ensuring that women and girls in crisis receive the care and mobility they need",
+        "As a team, we work together to ensure that every girl has the opportunity for freedom and equality. To provide holistic support, including health care, counseling, shelter, and transportation solutions, ensuring that women and girls in crisis receive the care and mobility they need",
     },
     {
       date: "27 Oct, 2024",

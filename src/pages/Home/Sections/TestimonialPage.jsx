@@ -7,25 +7,18 @@ import FIRST from "../../../Images/first.jpg";
 export default function TestimonialPage() {
   const testimonials = [
     {
-      name: "Malick Dash",
-      role: "",
-      rating: 5,
-      image: MED1,
-      text: "Supporting this charity has been one of the most rewarding experiences of my life. Knowing that my contributions help provide food, education, and hope to those in need fills me with gratitude. I trust their dedication and transparency and am proud to be part of this community of kindness.",
-    },
-    {
-      name: "Jonnett Robert",
+      name: "Korlu’s Story : Breaking the Chains",
       role: "",
       rating: 4,
       image: FIRST,
-      text: "I was initially looking for ways to make a real difference in people's lives, and I found it here. This charity’s impact on local families and communities is nothing short of inspiring. Their projects are thoughtfully designed to create lasting change, and I am grateful to support their work.",
+      text: "At 12 years old, I was told my education was over. My parents, struggling to afford school fees, decided that it was time for me to prepare for marriage instead. I felt my dreams slipping away. I wanted to be a teacher, to stand in front of a classroom and inspire other children. But in my community, girls like me rarely got that chance. Then, Raising Lazarus stepped in. They offered me a scholarship and convinced my parents that my education mattered. That moment changed my life forever. I returned to school with a new sense of purpose, determined to prove that a girl’s value is not just in marriage, but in her dreams and abilities. I graduated high school at the top of my class, and now, I am on my way to becoming a teacher. I want to go back to my village, to stand in front of a classroom and teach young girls that they, too, have the right to learn and succeed. Thanks to Raising Lazarus, I am no longer just a girl with dreams—I am a girl making them come true.",
     },
     {
-      name: "Moussa Traore",
+      name: "Boleae’s Story : Fighting for My Future",
       role: "",
       rating: 5,
       image: MED2,
-      text: "This charity helped my family through a tough time, providing not only essentials but also encouragement and kindness. The staff and volunteers treated us with respect and made us feel valued. I am forever thankful for the hope they gave us, and I now volunteer myself to give back.",
+      text: "I grew up believing that education was not meant for girls like me. In my village, boys went to school while girls stayed home, cooking, cleaning, and preparing for marriage. I watched my brothers leave every morning with their books, wishing I could do the same. But my family couldn't afford to send me to school, and I felt trapped in a life I didn’t choose. Then, Raising Lazarus changed everything. They gave me a scholarship, school supplies, and most importantly, the chance to dream. Stepping into a classroom for the first time, I felt like I was finally seen, finally valued. I worked hard, knowing that this opportunity was my key to freedom. Today, I am not just a girl from the village—I am a high school graduate preparing for university. I want to become a doctor, to help other girls realize that their future is worth fighting for. Raising Lazarus didn’t just give me an education; they gave me my voice, my confidence, and my future.",
     },
   ];
 
