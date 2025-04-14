@@ -27,7 +27,7 @@ export default function TeamMember() {
 
     {
       name: "Bob Nguyen",
-      role: "Volunteer",
+      role: "Program Director/ Manager, Ho Chi Minh, Vietnam",
       image: IMG4,
     },
     {
@@ -37,13 +37,18 @@ export default function TeamMember() {
     },
     {
       name: "Daniel Torla",
-      role: "Volunteer",
+      role: "Project Coordinator, Monrovia, Liberia",
       image: IMG3,
     },
     {
       name: "Amos M . Karter",
-      role: "Member of the team",
+      role: "Assistant Executive  Director, Maryland, USA",
       image: MO,
+    },
+    {
+      name: "Mr. Sanjeeban Missal",
+      role: "Program Director/ Manager, Kolkata, West Bengal, India",
+      image: MO3,
     },
     {
       name: "Abraham Y. Siaway",
@@ -55,11 +60,7 @@ export default function TeamMember() {
       role: "Member of the team",
       image: MO2,
     },
-    {
-    name: "Mr. Sanjeeban Missal",
-    role: "Program Director/ Manager, Kolkata, West Bengal, India",
-    image: MO3,
-    }
+   
   ];
 
   return (
